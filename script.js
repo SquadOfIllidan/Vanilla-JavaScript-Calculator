@@ -100,6 +100,7 @@ numberButtons.forEach(button => {
   button.addEventListener('click', () => {
     calculator.appendNumber(button.innerText)
     calculator.updateDisplay()
+    new Audio('audio/1.mp3').play()
   })
 })
 
